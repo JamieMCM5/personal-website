@@ -1,3 +1,28 @@
-body{ background-color: #131313;}
+*{
+    font-family: 'JetBrains Mono Regular', 'Courier New', monospace;
+    color: white;
+}
 
-h1, h2{color: wheat;}
+body{
+    background-color: #131313;
+    flex-wrap: wrap;
+}
+
+.top-header{
+    display: flex;
+    /* border: 2px solid white; */
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.link-top{
+}
+
+.boxmodel{ 
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px dashed black;
+    background-color: aliceblue;
+}

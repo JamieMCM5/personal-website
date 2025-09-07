@@ -3,6 +3,10 @@
     color: white;
 }
 
+a { 
+    text-decoration: none; 
+}
+
 body{
     background-color: #131313;
     flex-wrap: wrap;
@@ -10,19 +14,14 @@ body{
 
 .top-header{
     display: flex;
-    /* border: 2px solid white; */
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     gap: 20px;
 }
-.link-top{
-}
 
-.boxmodel{ 
-    height: 100px;
-    width: 100px;
-    padding: 20px;
-    margin: 50px;
-    border: 10px dashed black;
-    background-color: aliceblue;
+.heading-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
